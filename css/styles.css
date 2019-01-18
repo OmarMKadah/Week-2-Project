@@ -4,18 +4,26 @@ h1 {
   font-family: sans-serif;
 }
 
+h2 {
+  font-size: 20px;
+  font-family: georgia;
+}
+
+h3 {
+  font-size: 17px;
+  font-family: georgia;
+
+}
 .bold {
   font-weight: bold;
 }
 
+.underline {
+  text-decoration: underline;
+}
 .programming-links {
   text-align: center;
   padding: 10px;
   word-spacing: 25px;
   letter-spacing: none;
-}
-
-h2 {
-  font-size: 20px;
-  font-family: georgia;
 }
