@@ -10,5 +10,6 @@
 // });
 
 function fQuestion1(){
-  alert("in Question 1");
+  alert("You should learn ________ first!");
 }
+  // var sCorrectAnswer = document.getElementbyId("ans1");
