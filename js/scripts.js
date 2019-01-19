@@ -29,9 +29,8 @@ $(document).ready(function() {
     console.log(group4Input);
     console.log(group5Input);
 
-    if (group1Input === "art" && group2Input "app" && group3Input === "little"&& group4Input  === "fun" && group5Input === "pdx") {
-      return(".java").show();
+    if (group1Input === "art" && group2Input "app" && group3Input === "little" && group4Input  === "fun" && group5Input === "pdx") {
+      $(".java").show();
     }
-    });
-
+  });
 });
