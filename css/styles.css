@@ -20,6 +20,13 @@ body {
   background-repeat: no-repeat;
 }
 
+ul {
+  font-size: 14px;
+}
+
+.imgcenter{
+  image-orientation: center;
+}
 .leftFloat {
   float:left;
 }
