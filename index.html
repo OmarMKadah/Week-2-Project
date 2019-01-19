@@ -50,72 +50,80 @@
             <fieldset id="group1">
               <h3>Choose <span class="underline">one</span> the following (3) subjects that you enjoyed most in school:</h3>
                 <div class="subject">
-                  <ul><label><input type="radio" name="group1" value="art"> Art </label></ul>
-                  <ul><label><input type="radio" name="group1" value="math"> Math </label></ul>
-                  <ul><label><input type="radio" name="group1" value="sci"> Science</label></ul>
-                  <ul><label><input type="radio" name="group1" value="all1"> All of the above!</label></ul>
+                  <ul><label><input type="radio" name="group1" id="art" value="art"> Art </label></ul>
+                  <ul><label><input type="radio" name="group1" id="math" value="math"> Math </label></ul>
+                  <ul><label><input type="radio" name="group1" id="sci" value="sci"> Science</label></ul>
+                  <ul><label><input type="radio" name="group1" id="all1" value="all1"> All of the above!</label></ul>
                 </div>
             </fieldset>
             <br>
             <fieldset id="group2">
               <h3>What type of projects are you most interested in developing?</h3>
                 <div class="projects">
-                  <ul><label><input type="radio" name="group2" id="ans1" value="app"> Mobile Apps </label></ul>
-                  <ul><label><input type="radio" name="group2" id="ans2" value="web"> Well desgined websites </label></ul>
-                  <ul><label><input type="radio" name="group2" id="ans3" value="video"> Video Games </label></ul>
-                  <ul><label><input type="radio" name="group2" id="ans4" value="all2"> All of the Above! </label></ul>
+                  <ul><label><input type="radio" name="group2" id="app" value="app"> Mobile Apps </label></ul>
+                  <ul><label><input type="radio" name="group2" id="web" value="web"> Well desgined websites </label></ul>
+                  <ul><label><input type="radio" name="group2" id="video" value="video"> Video Games </label></ul>
+                  <ul><label><input type="radio" name="group2" id="all2" value="all2"> All of the Above! </label></ul>
                 </div>
             </fieldset>
             <br>
             <fieldset id="group3">
               <h3>What is your current technical experience?</h3>
                 <div class="subject">
-                  <ul><label><input type="radio" name="group3" id="ans1" value="little"> Very little </label></ul>
-                  <ul><label><input type="radio" name="group3" id="ans2" value="some"> Some </label></ul>
-                  <ul><label><input type="radio" name="group3" id="ans3" value="lots"> Lots</label></ul>
-                  <ul><label><input type="radio" name="group3" id="ans4" value="very"> Very Experienced! </label></ul>
+                  <ul><label><input type="radio" name="group3" id="little" value="little"> Very little </label></ul>
+                  <ul><label><input type="radio" name="group3" id="some" value="some"> Some </label></ul>
+                  <ul><label><input type="radio" name="group3" id="lots" value="lots"> Lots</label></ul>
+                  <ul><label><input type="radio" name="group3" id="very" value="very"> Very Experienced! </label></ul>
                 </div>
             <br>
             <fieldset id="group4">
               <h3>What is your interest in coding stemming from?</h3>
                 <div class="subject">
-                  <ul><label><input type="radio" name="group4" id="ans1" value="fun"> Looking for something fun! </label></ul>
-                  <ul><label><input type="radio" name="group4" id="ans2" value="challenge"> Looking for a Challenge </label></ul>
-                  <ul><label><input type="radio" name="group4" id="ans3" value="opp"> Looking for Opportunities </label></ul>
-                  <ul><label><input type="radio" name="group4" id="ans4" value="money"> Money, Money, Money! </label></ul>
+                  <ul><label><input type="radio" name="group4" id="fun" value="fun"> Looking for something fun! </label></ul>
+                  <ul><label><input type="radio" name="group4" id="challenge" value="challenge"> Looking for a Challenge </label></ul>
+                  <ul><label><input type="radio" name="group4" id="opp" value="opp"> Looking for Opportunities </label></ul>
+                  <ul><label><input type="radio" name="group4" id="money" value="money"> Money, Money, Money! </label></ul>
                 </div>
             <br>
             <fieldset id="group5">
               <h3>What city are you <span class="underline">most</span> interested in working in?</h3>
                 <div class="subject">
-                  <ul><label><input type="radio" name="group5" id="ans1" value="pdx"> Portland </label></ul>
-                  <ul><label><input type="radio" name="group5" id="ans2" value="chi"> Chicago</label></ul>
-                  <ul><label><input type="radio" name="group5" id="ans3" value="sea"> Seattle </label></ul>
-                  <ul><label><input type="radio" name="group5" id="ans4" value="sfo"> San Francisco </label>
+                  <ul><label><input type="radio" name="group5" id="pdx" value="pdx"> Portland </label></ul>
+                  <ul><label><input type="radio" name="group5" id="chi" value="chi"> Chicago</label></ul>
+                  <ul><label><input type="radio" name="group5" id="sea" value="sea"> Seattle </label></ul>
+                  <ul><label><input type="radio" name="group5" id="sfo" value="sfo"> San Francisco </label>
                 </div>
               </fieldset>
-            <input type="button" name="button" id="btnSubmit" value="Submit" onClick="fQuestion1()">
+            <button type="submit" class="btn">Submit!</button>
           </form>
         </div>
         <div class="jumbotron">
-          <div>
-            <h4>Here's our suggestion for you!</h4>
-            <br>
-              <h2>Java!</h2>
-              <img src="img/java.jpeg" alt="">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <h2>JavaScript!</h2>
-              <img src="img/javascript.png" alt="JavaScript">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <h2>Python!</h2>
-              <img src="img/python.jpg" alt="Python">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <h2>C#</h2>
-              <img src="img/c.png" alt="C#">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <h2>Ruby on Rails!</h2>
-              <img src="img/ruby.png" alt="Ruby on Rails">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h4>Here's our suggestion for you!</h4>
+        <br>
+          <div class="java">
+            <h2>Java!</h2>
+            <img src="img/java.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="javascript">
+            <h2>JavaScript!</h2>
+            <img src="img/javascript.png" alt="JavaScript">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="python">
+            <h2>Python!</h2>
+            <img src="img/python.jpg" alt="Python">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ccc">
+            <h2>C#</h2>
+            <img src="img/c.png" alt="C#">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="ruby">
+            <h2>Ruby on Rails!</h2>
+            <img src="img/ruby.png" alt="Ruby on Rails">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
         <div class="jumbotron">
