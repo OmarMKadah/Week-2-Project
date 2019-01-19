@@ -37,3 +37,7 @@ body {
   word-spacing: 25px;
   letter-spacing: none;
 }
+
+.java, .javascript, .ruby, .ccc, .python {
+  display: none
+}
