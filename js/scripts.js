@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     var group1Input = $("input:radio[name=group1]:checked").val();
     var group2Input = $("input:radio[name=group2]:checked").val();
-    var group3Input = $("input:radio[name=grou3]:checked").val();
+    var group3Input = $("input:radio[name=group3]:checked").val();
     var group4Input = $("input:radio[name=group4]:checked").val();
     var group5Input = $("input:radio[name=group5]:checked").val();
     console.log(group1Input);
