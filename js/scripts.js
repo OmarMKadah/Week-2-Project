@@ -17,6 +17,8 @@
 $(document).ready(function() {
   $(".profile").submit(function(event){
     event.preventDefault();
+  });
+})
 
     var group1Input = $("input:radio[name=group1]:checked").val();
     var group2Input = $("input:radio[name=group2]:checked").val();
@@ -32,5 +34,3 @@ $(document).ready(function() {
     if (group1Input === "art" && group2Input "app" && group3Input === "little" && group4Input  === "fun" && group5Input === "pdx") {
       $(".java").show();
     }
-  });
-});
