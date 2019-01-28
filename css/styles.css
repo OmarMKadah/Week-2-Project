@@ -45,6 +45,10 @@ ul {
   letter-spacing: none;
 }
 
+.radio {
+  margin-left: 20px;
+}
+
 .java, .javascript, .ruby, .ccc, .python {
   display: none
 }
